@@ -1,4 +1,6 @@
 - clean: ['~']
 - link:
     ~/.zshrc: zsh/zshrc
-- shell: []
+    ~/.oh-my-zsh: zsh/ohmyzsh
+- shell: 
+  - command: git submodule update --init --recursive --depth 1
