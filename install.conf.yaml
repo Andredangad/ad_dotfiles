@@ -3,4 +3,4 @@
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh: zsh/ohmyzsh
 - shell: 
-  - command: git submodule update --init --recursive --depth 1
+  - command: git submodule sync --recursive && git submodule update --init --recursive --depth 1
